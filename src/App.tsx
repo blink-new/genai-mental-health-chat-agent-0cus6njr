@@ -1,9 +1,12 @@
-import { useState } from 'react'
+import ChatInterface from './components/ChatInterface'
+import './App.css'
 
 function App() {
   return (
-    <div></div>
+    <div className="min-h-screen bg-gray-50">
+      <ChatInterface />
+    </div>
   )
 }
 
-export default App 
+export default App
